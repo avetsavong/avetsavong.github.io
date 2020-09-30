@@ -1,0 +1,94 @@
+/************************************ dropdown menu ************************************/
+.dropbtn{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #6b9b37;
+    color: #000000;
+    display:block;
+    border-style:none;
+    padding: 6px 0px 6px 0px;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 148px;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropbtn:hover, .dropbtn:focus{
+    color: #000000;
+    background-color: #9ccc65;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative; /* pushes down content, hamburger style */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #ffffff;
+    margin-top: 0px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/************************************ sidebar menu ************************************/
+.sidenav{
+    font-family: 'Roboto', sans-serif;
+    height: 97.5%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 0px 0px 10px 0px;
+    background-color: #1b1b1b;
+    opacity: 100%;
+    overflox-x: hidden;
+    padding-top: 16px;
+}
+
+.sidenav a{
+    font-size: 16px;
+    color: #000000;
+    background-color: #6b9b37;
+    border-radius: 3px;
+    padding: 6px 0px 6px 0px;
+    margin: 8px 6px 8px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav a:hover{
+    color: #000000;
+    background-color: #9ccc65;
+}
+
+
+/********************************** main page content **********************************/
+.main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #212121;
+    margin-left: 160px;
+    padding: 0px 0px 0px 10px;
+}
